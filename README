@@ -1,0 +1,4 @@
+I wasn't entirely happy with some of the boilerplates that exist for Node+ES6/ES7, this is a server-side builder for node js server utilities. has jsx support wired in as well.
+
+This just has some simple/sane defaults for ESLINT and package.json with mocha
+sinon/chai.
