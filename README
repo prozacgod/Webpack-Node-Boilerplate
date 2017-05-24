@@ -18,9 +18,32 @@ This means in the browser you can do
     <script> CONFIG={foo:1} </script>
 
 And code will work as expected... on both client and sever side.  The server
-will dyanmically load the config, the client expecte the CONFIG to be defined
+will dyanmically load the config, the client expects the CONFIG to be defined
 before being loaded.
 
 On the client side, if you don't automatically create a CONFIG variable,
 the client will attempt to execute a spurious "require" statement, with
 obvious results.
+
+Development
+===
+
+Start the watch tool with
+
+    npm run watch
+
+
+Then run the built code with
+
+    npm run execute -- [args]
+
+Deployment
+===
+
+Nothing has been done here yet
+
+Build
+===
+If you just wish to build it
+
+    npm run build
